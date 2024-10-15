@@ -5,9 +5,9 @@ Pulling an image
 
 To run containers, we'll first need to pull some images.
 
-    Let's see what images we have currently on our machine, by running docker images:
+Let's see what images we have currently on our machine, by running docker images:
 
-    $ docker images
+$ docker images
     REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 
 On a fresh Docker installation, we should have no images. Let's pull one from Dockerhub.
@@ -15,13 +15,12 @@ On a fresh Docker installation, we should have no images. Let's pull one from Do
 We usually pull images from DockerHub by tag. These look like:
 
 # Official Docker images
-<repo>:<tag>
+<repo>  : <tag>
 # ubuntu:16.04
-# elasticsearch:5.2
 # nginx:latest
 
 # User or organization made images
-<user or org>/<repo>:<tag>
+<user or org> / <repo>:<tag>
 # delner/ubuntu:16.04
 # bitnami/rails:latest
 
